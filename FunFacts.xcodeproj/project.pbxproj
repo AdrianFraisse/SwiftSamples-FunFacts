@@ -13,6 +13,8 @@
 		3AAFF31C1B6E6CCF00F55AF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAFF31B1B6E6CCF00F55AF1 /* Images.xcassets */; };
 		3AAFF31F1B6E6CCF00F55AF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAFF31D1B6E6CCF00F55AF1 /* LaunchScreen.xib */; };
 		3AAFF32B1B6E6CCF00F55AF1 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFF32A1B6E6CCF00F55AF1 /* FunFactsTests.swift */; };
+		3AAFF3371B6E9B1D00F55AF1 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFF3361B6E9B1D00F55AF1 /* FactBook.swift */; };
+		3AAFF3391B6EA8B100F55AF1 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFF3381B6EA8B100F55AF1 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		3AAFF3241B6E6CCF00F55AF1 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAFF3291B6E6CCF00F55AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AAFF32A1B6E6CCF00F55AF1 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		3AAFF3341B6E79C500F55AF1 /* ScratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ScratchPad.playground; sourceTree = "<group>"; };
+		3AAFF3361B6E9B1D00F55AF1 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		3AAFF3381B6EA8B100F55AF1 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		3AAFF3061B6E6CCF00F55AF1 = {
 			isa = PBXGroup;
 			children = (
+				3AAFF3351B6E79D400F55AF1 /* Playgrounds */,
 				3AAFF3111B6E6CCF00F55AF1 /* FunFacts */,
 				3AAFF3271B6E6CCF00F55AF1 /* FunFactsTests */,
 				3AAFF3101B6E6CCF00F55AF1 /* Products */,
@@ -80,6 +86,8 @@
 				3AAFF3141B6E6CCF00F55AF1 /* AppDelegate.swift */,
 				3AAFF3161B6E6CCF00F55AF1 /* ViewController.swift */,
 				3AAFF3181B6E6CCF00F55AF1 /* Main.storyboard */,
+				3AAFF3361B6E9B1D00F55AF1 /* FactBook.swift */,
+				3AAFF3381B6EA8B100F55AF1 /* ColorWheel.swift */,
 				3AAFF31B1B6E6CCF00F55AF1 /* Images.xcassets */,
 				3AAFF31D1B6E6CCF00F55AF1 /* LaunchScreen.xib */,
 				3AAFF3121B6E6CCF00F55AF1 /* Supporting Files */,
@@ -110,6 +118,14 @@
 				3AAFF3291B6E6CCF00F55AF1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AAFF3351B6E79D400F55AF1 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				3AAFF3341B6E79C500F55AF1 /* ScratchPad.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAFF3371B6E9B1D00F55AF1 /* FactBook.swift in Sources */,
 				3AAFF3171B6E6CCF00F55AF1 /* ViewController.swift in Sources */,
 				3AAFF3151B6E6CCF00F55AF1 /* AppDelegate.swift in Sources */,
+				3AAFF3391B6EA8B100F55AF1 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +427,7 @@
 				3AAFF3301B6E6CCF00F55AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AAFF3311B6E6CCF00F55AF1 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				3AAFF3331B6E6CCF00F55AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
